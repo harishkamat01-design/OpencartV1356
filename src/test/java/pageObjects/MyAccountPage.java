@@ -12,7 +12,7 @@ public class MyAccountPage extends BasePage
 		super(driver);
 	}
 
-	//locator
+	//   locators
 	@FindBy(xpath = "//h2[text()='My Account']")   // MyAccount Page Heading
 	WebElement msgHeading;
 	

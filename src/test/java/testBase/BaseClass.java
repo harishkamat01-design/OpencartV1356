@@ -25,7 +25,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-public class BaseClass           //re-usbale methods will be put in her and also log 
+public class BaseClass           //re-usbale methods will be put in here and along with logs 
 {
 			public static WebDriver driver;      // making this as driver as common across all the classes, so making it as static
 			public Logger logger;               // import from import org.apache.logging.log4j.Logger and .LogManager;
@@ -63,7 +63,7 @@ public class BaseClass           //re-usbale methods will be put in her and also
 							}
 							else
 							{
-								System.out.println("No matching os");
+ 								System.out.println("No matching os");
 								return;
 							}
 							

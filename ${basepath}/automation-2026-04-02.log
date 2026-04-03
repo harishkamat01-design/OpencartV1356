@@ -1,0 +1,52 @@
+12:15:30.700 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.712 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+12:15:30.721 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+12:15:30.722 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.726 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.726 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.726 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.727 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.729 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.729 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.730 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.730 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.731 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.732 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.733 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.733 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.734 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:15:30.734 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:15:30.742 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\AppData\Local\Temp\testng-eclipse-1440910961\testng-customsuite.xml
+
+12:15:30.759 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+12:15:30.952 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@625abb97: 61 ms
+12:15:30.968 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5d2a4eed: 16 ms
+12:15:30.980 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@478ee483: 12 ms
+12:15:30.989 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1af146: 9 ms
+12:15:30.998 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7fc6de5b: 7 ms
+12:15:30.998 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@21baa903: 0 ms
+12:17:52.917 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:19:25.264 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:19:36.225 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:19:36.515 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+13:19:55.634 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+13:19:56.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+13:23:19.261 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+13:23:19.792 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+13:57:15.403 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+13:57:15.663 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+13:58:35.711 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"

@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends BasePage
+public class HomePage extends BasePage 
 {
 	//WebDriver driver; ---> not needed
   public HomePage(WebDriver driver)
@@ -22,6 +22,13 @@ public class HomePage extends BasePage
   @FindBy(linkText="Login")   // step #5 for Login
   WebElement linkLogin;
   
+  @FindBy(xpath="//input[@placeholder='Search']")
+	WebElement productname;
+	
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+	WebElement btnSearch;
+
+  
   public void clickMyAccount()
   {
 	  lnkMyaccount.click();
@@ -34,6 +41,18 @@ public class HomePage extends BasePage
   public void clickLogin()
   {
 	  linkLogin.click();
+	  
   }
+  
+  public void enterProductName(String pname) 
+  {
+	  productname.sendKeys(pname);
+  }
+  
+  public void clickSearch()
+  {
+	  btnSearch.click();
+  }
+    
   
 }

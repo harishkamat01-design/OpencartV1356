@@ -22,6 +22,7 @@ public class TC002_LoginTest extends BaseClass
 		hp.clickMyAccount();
 		hp.clickLogin();
 		
+		
 		//LoginPage
 		LoginPage lp =new LoginPage(driver);
 		lp.setEmail(p.getProperty("email"));    // this is not a java file , these are from properties file , so we need to mention in "".

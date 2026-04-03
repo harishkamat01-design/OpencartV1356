@@ -1,11 +1,25 @@
-12:15:27.304 [main] INFO  testCases.TC002_LoginTest - *Starting TC002_LoginTest*
-12:15:29.041 [main] INFO  testCases.TC002_LoginTest - *Finished TC002_LoginTest*
-12:20:23.776 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
-12:20:27.313 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest   *****
-12:20:27.490 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
-12:20:27.980 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register  Link
-12:20:27.985 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details
-12:20:30.031 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating the expected message
-12:20:30.063 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest   ***** 
-12:20:31.990 [main] INFO  testCases.TC002_LoginTest - *Starting TC002_LoginTest*
-12:20:33.684 [main] INFO  testCases.TC002_LoginTest - *Finished TC002_LoginTest*
+12:24:36.979 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+12:27:20.879 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:27:21.123 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+12:27:24.347 [main] INFO  testCases.TC008_ListandGridView - *TC008_ListandGridView*
+12:31:31.603 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:31:31.860 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+12:32:40.744 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:32:41.003 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+12:33:49.481 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:33:49.710 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+12:35:13.044 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml"
+12:35:13.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\hpk13\eclipse-workspace\OpencartV1356\master.xml
+
+12:35:16.161 [main] INFO  testCases.TC008_ListandGridView - *TC008_ListandGridView*
