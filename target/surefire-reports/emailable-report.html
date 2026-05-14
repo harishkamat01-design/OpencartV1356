@@ -9,175 +9,48 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Master Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">22,194</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">109,630</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1778672677192</td><td rowspan="1">10556</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m1">setup</a></td><td rowspan="1">1778672687778</td><td rowspan="1">10021</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m2">teardown</a></td><td rowspan="1">1778672687776</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m3">teardown</a></td><td rowspan="1">1778672697812</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m4">verify_account_registration</a></td><td rowspan="1">1778672687763</td><td rowspan="1">1</td></tr><tr class="skippedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m5">verify_login</a></td><td rowspan="1">1778672697802</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC009_DropDownSorting</td><td><a href="#m0">verify_DropDownSorting</a></td><td rowspan="1">1778722286556</td><td rowspan="1">10016</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m1">verify_account_registration</a></td><td rowspan="1">1778722190989</td><td rowspan="1">2968</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m2">verify_login</a></td><td rowspan="1">1778722196008</td><td rowspan="1">1660</td></tr><tr class="passedeven"><td rowspan="5">testCases.TC003_LoginDDT</td><td><a href="#m3">verify_loginDDT</a></td><td rowspan="5">1778722240910</td><td rowspan="5">11291</td></tr><tr class="passedeven"><td><a href="#m4">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m5">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m6">verify_loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m7">verify_loginDDT</a></td></tr><tr class="passedodd"><td rowspan="1">testCases.TC004_SearchProductTest</td><td><a href="#m8">verify_productSearch</a></td><td rowspan="1">1778722256692</td><td rowspan="1">519</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC006_HeaderNameValidation</td><td><a href="#m9">verify_headerName</a></td><td rowspan="1">1778722260264</td><td rowspan="1">42</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC007_OepnPageValidation</td><td><a href="#m10">verify_openPage</a></td><td rowspan="1">1778722262499</td><td rowspan="1">3553</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC008_ListandGridView</td><td><a href="#m11">verify_listandgridview</a></td><td rowspan="1">1778722268300</td><td rowspan="1">15939</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCases.TC001_AccountRegistrationTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Windows</td><td>chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. HTTP connect timed out 
-Host info: host: &apos;SAPNISH&apos;, ip: &apos;192.168.1.2&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:286)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:209)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:169)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at testBase.BaseClass.setup(BaseClass.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+<h2>Test</h2><h3 id="m0">testCases.TC009_DropDownSorting#verify_DropDownSorting</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;input-sort&apos;]&quot;}
+  (Session info: chrome=148.0.7778.167)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:501)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:462)
-	... 8 more
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
-	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
-	at java.net.http/jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$1(Http1Exchange.java:593)
-	... 3 more
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
-	... 10 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC002_LoginTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Windows</td><td>chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. HTTP connect timed out 
-Host info: host: &apos;SAPNISH&apos;, ip: &apos;192.168.1.2&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:286)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:209)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:169)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at testBase.BaseClass.setup(BaseClass.java:80)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59849b9aa69184e0f1e1c972cfa6baba, findElement {value=//select[@id=&apos;input-sort&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65202}, goog:processID: 27236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59849b9aa69184e0f1e1c972cfa6baba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:44)
+	at pageObjects.SortByRatingPage.ratingHighest(SortByRatingPage.java:27)
+	at testCases.TC009_DropDownSorting.verify_DropDownSorting(TC009_DropDownSorting.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:501)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:462)
-	... 8 more
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
-	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
-	at java.net.http/jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$1(Http1Exchange.java:593)
-	... 3 more
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
-	... 10 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.TC001_AccountRegistrationTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.TC002_LoginTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.TC001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. HTTP connect timed out 
-Host info: host: &apos;SAPNISH&apos;, ip: &apos;192.168.1.2&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:286)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:209)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:169)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at testBase.BaseClass.setup(BaseClass.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:501)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:462)
-	... 8 more
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
-	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
-	at java.net.http/jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$1(Http1Exchange.java:593)
-	... 3 more
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
-	... 10 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.TC002_LoginTest#verify_login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. HTTP connect timed out 
-Host info: host: &apos;SAPNISH&apos;, ip: &apos;192.168.1.2&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:286)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:209)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:169)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at testBase.BaseClass.setup(BaseClass.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:501)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:388)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:917)
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:462)
-	... 8 more
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:618)
-	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:561)
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$2(MultiExchange.java:480)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
-	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2221)
-	at java.net.http/jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$1(Http1Exchange.java:593)
-	... 3 more
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:619)
-	... 10 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC001_AccountRegistrationTest#verify_account_registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC002_LoginTest#verify_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Buttler33@gmail.com</td><td>Butter@123</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Tim.cook22@gmail.com</td><td>Timcook@123</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Dali.Toy12345@gmail.com</td><td>DaliToy@123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Jason.Roy11@gmail.com</td><td>Jason@123</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC003_LoginDDT#verify_loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Rassam12345@gmail.com</td><td>Rassam@123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC004_SearchProductTest#verify_productSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC006_HeaderNameValidation#verify_headerName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.TC007_OepnPageValidation#verify_openPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC008_ListandGridView#verify_listandgridview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -77,7 +77,7 @@ public class BaseClass           //re-usbale methods will be put in here and alo
 							}
 							
 							//launching RemoteWebDriver
-							driver = new RemoteWebDriver(new URL("http://192.168.1.7:4444/wd/hub"), capabilities);
+							driver = new RemoteWebDriver(new URL("http://192.168.1.2:4444/wd/hub"), capabilities);
 						}
 		
 						
