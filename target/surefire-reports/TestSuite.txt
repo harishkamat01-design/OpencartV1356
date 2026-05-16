@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 112.0 s <<< FAILURE! -- in TestSuite
-testCases.TC009_DropDownSorting.verify_DropDownSorting -- Time elapsed: 10.23 s <<< FAILURE!
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 109.3 s <<< FAILURE! -- in TestSuite
+testCases.TC009_DropDownSorting.verify_DropDownSorting -- Time elapsed: 10.31 s <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='input-sort']"}
   (Session info: chrome=148.0.7778.167)
@@ -10,9 +10,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [59849b9aa69184e0f1e1c972cfa6baba, findElement {value=//select[@id='input-sort'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65202}, goog:processID: 27236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59849b9aa69184e0f1e1c972cfa6baba
+Command: [334d0564751ecefb3572e3fc312f8595, findElement {using=xpath, value=//select[@id='input-sort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56042}, goog:processID: 26684, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56042/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 334d0564751ecefb3572e3fc312f8595
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)

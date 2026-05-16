@@ -1,23 +1,19 @@
-07:00:01.631 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-07:00:01.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-07:00:01.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-07:00:01.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-07:00:01.669 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-07:00:01.671 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-07:00:01.671 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-07:00:01.692 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-07:00:01.694 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-07:00:01.694 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-07:00:01.707 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
-07:00:15.144 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
-07:00:15.145 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
-07:00:30.262 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
-07:00:30.264 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
-07:00:40.908 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
-07:00:40.910 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
-07:00:52.201 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
-07:00:52.202 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
-07:00:54.236 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
-07:00:56.698 [main] INFO  testCases.TC004_SearchProductTest - *TC004_SearchProductTest*
-07:00:57.211 [main] INFO  testCases.TC004_SearchProductTest - *Finished TC004_SearchProductTest*
-07:01:08.301 [main] INFO  testCases.TC008_ListandGridView - *TC008_ListandGridView*
+11:24:11.721 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:24:11.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:24:11.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:24:11.761 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:24:11.761 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:24:11.763 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:24:11.789 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
+11:24:14.218 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
+11:24:14.222 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
+11:24:26.103 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
+11:24:26.107 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
+11:24:37.709 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
+11:24:37.711 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
+11:24:50.371 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
+11:24:50.373 [main] INFO  testCases.TC003_LoginDDT - *Starting TC003_LoginDDT*
+11:24:53.452 [main] INFO  testCases.TC003_LoginDDT - *Finished TC003_LoginDDT*
+11:24:56.356 [main] INFO  testCases.TC004_SearchProductTest - *TC004_SearchProductTest*
+11:24:57.067 [main] INFO  testCases.TC004_SearchProductTest - *Finished TC004_SearchProductTest*
+11:25:09.080 [main] INFO  testCases.TC008_ListandGridView - *TC008_ListandGridView*

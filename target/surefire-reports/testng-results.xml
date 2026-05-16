@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-14T06:59:47 IST" name="Master Suite" finished-at="2026-05-14T07:01:36 IST" duration-ms="109630">
+  <suite started-at="2026-05-16T11:23:52 IST" name="Master Suite" finished-at="2026-05-16T11:25:38 IST" duration-ms="105937">
     <groups>
       <group name="Master">
         <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
@@ -23,9 +23,9 @@
         <method signature="TC003_LoginDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" name="verify_loginDDT" class="testCases.TC003_LoginDDT"/>
       </group> <!-- Datadriven -->
     </groups>
-    <test started-at="2026-05-14T06:59:47 IST" name="Test" finished-at="2026-05-14T07:01:36 IST" duration-ms="109630">
+    <test started-at="2026-05-16T11:23:52 IST" name="Test" finished-at="2026-05-16T11:25:38 IST" duration-ms="105937">
       <class name="testCases.TC004_SearchProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@f99f5e0]" started-at="2026-05-14T07:00:54 IST" name="setup" finished-at="2026-05-14T07:00:56 IST" duration-ms="2238" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@f99f5e0]" started-at="2026-05-16T11:24:53 IST" name="setup" finished-at="2026-05-16T11:24:56 IST" duration-ms="2529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,17 +41,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_productSearch()[pri:0, instance:testCases.TC004_SearchProductTest@f99f5e0]" started-at="2026-05-14T07:00:56 IST" name="verify_productSearch" finished-at="2026-05-14T07:00:57 IST" duration-ms="519" status="PASS">
+        <test-method signature="verify_productSearch()[pri:0, instance:testCases.TC004_SearchProductTest@f99f5e0]" started-at="2026-05-16T11:24:56 IST" name="verify_productSearch" finished-at="2026-05-16T11:24:57 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_productSearch -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_SearchProductTest@f99f5e0]" started-at="2026-05-14T07:00:57 IST" name="teardown" finished-at="2026-05-14T07:00:57 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_SearchProductTest@f99f5e0]" started-at="2026-05-16T11:24:57 IST" name="teardown" finished-at="2026-05-16T11:24:57 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC004_SearchProductTest -->
       <class name="testCases.TC007_OepnPageValidation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_OepnPageValidation@3e6f3f28]" started-at="2026-05-14T07:01:00 IST" name="setup" finished-at="2026-05-14T07:01:02 IST" duration-ms="1974" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_OepnPageValidation@3e6f3f28]" started-at="2026-05-16T11:24:59 IST" name="setup" finished-at="2026-05-16T11:25:01 IST" duration-ms="2156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,17 +67,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_openPage()[pri:0, instance:testCases.TC007_OepnPageValidation@3e6f3f28]" started-at="2026-05-14T07:01:02 IST" name="verify_openPage" finished-at="2026-05-14T07:01:06 IST" duration-ms="3553" status="PASS">
+        <test-method signature="verify_openPage()[pri:0, instance:testCases.TC007_OepnPageValidation@3e6f3f28]" started-at="2026-05-16T11:25:01 IST" name="verify_openPage" finished-at="2026-05-16T11:25:05 IST" duration-ms="3724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_openPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC007_OepnPageValidation@3e6f3f28]" started-at="2026-05-14T07:01:06 IST" name="teardown" finished-at="2026-05-14T07:01:06 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC007_OepnPageValidation@3e6f3f28]" started-at="2026-05-16T11:25:05 IST" name="teardown" finished-at="2026-05-16T11:25:05 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC007_OepnPageValidation -->
       <class name="testCases.TC006_HeaderNameValidation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_HeaderNameValidation@30bce90b]" started-at="2026-05-14T07:00:57 IST" name="setup" finished-at="2026-05-14T07:01:00 IST" duration-ms="2807" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_HeaderNameValidation@30bce90b]" started-at="2026-05-16T11:24:57 IST" name="setup" finished-at="2026-05-16T11:24:59 IST" duration-ms="2195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,17 +93,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_headerName()[pri:0, instance:testCases.TC006_HeaderNameValidation@30bce90b]" started-at="2026-05-14T07:01:00 IST" name="verify_headerName" finished-at="2026-05-14T07:01:00 IST" duration-ms="42" status="PASS">
+        <test-method signature="verify_headerName()[pri:0, instance:testCases.TC006_HeaderNameValidation@30bce90b]" started-at="2026-05-16T11:24:59 IST" name="verify_headerName" finished-at="2026-05-16T11:24:59 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_headerName -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_HeaderNameValidation@30bce90b]" started-at="2026-05-14T07:01:00 IST" name="teardown" finished-at="2026-05-14T07:01:00 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC006_HeaderNameValidation@30bce90b]" started-at="2026-05-16T11:24:59 IST" name="teardown" finished-at="2026-05-16T11:24:59 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC006_HeaderNameValidation -->
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6cb6decd]" started-at="2026-05-14T06:59:54 IST" name="setup" finished-at="2026-05-14T06:59:56 IST" duration-ms="1819" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6cb6decd]" started-at="2026-05-16T11:23:59 IST" name="setup" finished-at="2026-05-16T11:24:02 IST" duration-ms="3493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,17 +119,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@6cb6decd]" started-at="2026-05-14T06:59:56 IST" name="verify_login" finished-at="2026-05-14T06:59:57 IST" duration-ms="1660" status="PASS">
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@6cb6decd]" started-at="2026-05-16T11:24:02 IST" name="verify_login" finished-at="2026-05-16T11:24:05 IST" duration-ms="2952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@6cb6decd]" started-at="2026-05-14T06:59:57 IST" name="teardown" finished-at="2026-05-14T06:59:57 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@6cb6decd]" started-at="2026-05-16T11:24:05 IST" name="teardown" finished-at="2026-05-16T11:24:06 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC003_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T06:59:57 IST" name="setup" finished-at="2026-05-14T06:59:59 IST" duration-ms="1787" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:06 IST" name="setup" finished-at="2026-05-16T11:24:08 IST" duration-ms="2284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T07:00:01 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-14T07:00:15 IST" duration-ms="13437" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:11 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-16T11:24:14 IST" duration-ms="2437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T07:00:15 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-14T07:00:30 IST" duration-ms="15117" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:14 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-16T11:24:26 IST" duration-ms="11884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T07:00:30 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-14T07:00:40 IST" duration-ms="10645" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:26 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-16T11:24:37 IST" duration-ms="11604" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,7 +208,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T07:00:40 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-14T07:00:52 IST" duration-ms="11291" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:37 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-16T11:24:50 IST" duration-ms="12660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,7 +229,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T07:00:52 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-14T07:00:54 IST" duration-ms="2036" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:50 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-16T11:24:53 IST" duration-ms="3079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,13 +250,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_loginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-14T07:00:54 IST" name="teardown" finished-at="2026-05-14T07:00:54 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@c7045b9]" started-at="2026-05-16T11:24:53 IST" name="teardown" finished-at="2026-05-16T11:24:53 IST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC003_LoginDDT -->
       <class name="testCases.TC009_DropDownSorting">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_DropDownSorting@2474f125]" started-at="2026-05-14T07:01:24 IST" name="setup" finished-at="2026-05-14T07:01:26 IST" duration-ms="1833" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_DropDownSorting@2474f125]" started-at="2026-05-16T11:25:25 IST" name="setup" finished-at="2026-05-16T11:25:28 IST" duration-ms="2419" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,7 +272,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_DropDownSorting()[pri:0, instance:testCases.TC009_DropDownSorting@2474f125]" started-at="2026-05-14T07:01:26 IST" name="verify_DropDownSorting" finished-at="2026-05-14T07:01:36 IST" duration-ms="10016" status="FAIL">
+        <test-method signature="verify_DropDownSorting()[pri:0, instance:testCases.TC009_DropDownSorting@2474f125]" started-at="2026-05-16T11:25:28 IST" name="verify_DropDownSorting" finished-at="2026-05-16T11:25:38 IST" duration-ms="10042" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='input-sort']"}
@@ -281,9 +281,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [59849b9aa69184e0f1e1c972cfa6baba, findElement {value=//select[@id='input-sort'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65202}, goog:processID: 27236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59849b9aa69184e0f1e1c972cfa6baba]]>
+Command: [334d0564751ecefb3572e3fc312f8595, findElement {using=xpath, value=//select[@id='input-sort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56042}, goog:processID: 26684, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56042/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 334d0564751ecefb3572e3fc312f8595]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='input-sort']"}
@@ -292,9 +292,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [59849b9aa69184e0f1e1c972cfa6baba, findElement {value=//select[@id='input-sort'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65202}, goog:processID: 27236, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 59849b9aa69184e0f1e1c972cfa6baba
+Command: [334d0564751ecefb3572e3fc312f8595, findElement {using=xpath, value=//select[@id='input-sort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\hpk13\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56042}, goog:processID: 26684, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56042/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 334d0564751ecefb3572e3fc312f8595
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -348,13 +348,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_DropDownSorting -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC009_DropDownSorting@2474f125]" started-at="2026-05-14T07:01:36 IST" name="teardown" finished-at="2026-05-14T07:01:36 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC009_DropDownSorting@2474f125]" started-at="2026-05-16T11:25:38 IST" name="teardown" finished-at="2026-05-16T11:25:38 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC009_DropDownSorting -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" started-at="2026-05-14T06:59:47 IST" name="setup" finished-at="2026-05-14T06:59:50 IST" duration-ms="3404" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" started-at="2026-05-16T11:23:53 IST" name="setup" finished-at="2026-05-16T11:23:56 IST" duration-ms="3231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -370,17 +370,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" started-at="2026-05-14T06:59:50 IST" name="verify_account_registration" finished-at="2026-05-14T06:59:53 IST" duration-ms="2968" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" started-at="2026-05-16T11:23:56 IST" name="verify_account_registration" finished-at="2026-05-16T11:23:59 IST" duration-ms="2783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" started-at="2026-05-14T06:59:53 IST" name="teardown" finished-at="2026-05-14T06:59:54 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@19e7a160]" started-at="2026-05-16T11:23:59 IST" name="teardown" finished-at="2026-05-16T11:23:59 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
       <class name="testCases.TC008_ListandGridView">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_ListandGridView@7e19ebf0]" started-at="2026-05-14T07:01:06 IST" name="setup" finished-at="2026-05-14T07:01:08 IST" duration-ms="1972" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_ListandGridView@7e19ebf0]" started-at="2026-05-16T11:25:05 IST" name="setup" finished-at="2026-05-16T11:25:09 IST" duration-ms="3164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,11 +396,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_listandgridview()[pri:0, instance:testCases.TC008_ListandGridView@7e19ebf0]" started-at="2026-05-14T07:01:08 IST" name="verify_listandgridview" finished-at="2026-05-14T07:01:24 IST" duration-ms="15939" status="PASS">
+        <test-method signature="verify_listandgridview()[pri:0, instance:testCases.TC008_ListandGridView@7e19ebf0]" started-at="2026-05-16T11:25:09 IST" name="verify_listandgridview" finished-at="2026-05-16T11:25:25 IST" duration-ms="16294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_listandgridview -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC008_ListandGridView@7e19ebf0]" started-at="2026-05-14T07:01:24 IST" name="teardown" finished-at="2026-05-14T07:01:24 IST" duration-ms="484" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC008_ListandGridView@7e19ebf0]" started-at="2026-05-16T11:25:25 IST" name="teardown" finished-at="2026-05-16T11:25:25 IST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
